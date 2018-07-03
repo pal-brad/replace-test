@@ -5,7 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class StartActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,"bye",Toast.LENGTH_LONG).show();
 
 
-        Log.d("MainActivity", "Hello");
+        Log.d("StartActivity", "Hello");
     }
 }
