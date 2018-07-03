@@ -12,7 +12,7 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toast.makeText(this,"bye",Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"hello",Toast.LENGTH_LONG).show();
 
 
         Log.d("StartActivity", "Hello");
